@@ -20,7 +20,6 @@
         <kin-framework-java.version>0.1.0.0</kin-framework-java.version>
         <scala.version>2.12.10</scala.version>
         <scala.version.head>2.12</scala.version.head>
-        <fastutil.version>8.1.0</fastutil.version>
     </properties>
 
     <dependencyManagement>
@@ -47,7 +46,6 @@
         <dependency>
             <groupId>it.unimi.dsi</groupId>
             <artifactId>fastutil</artifactId>
-            <version>${fastutil.version}</version>
         </dependency>
 
         <dependency>
